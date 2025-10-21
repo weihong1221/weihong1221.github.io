@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        body {
+            background-color: #D9D9D9;
+
+        }
+
+        .bigbox {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        .bigbox div {
+
+            background-color: white;
+            padding: 15px;
+            font-family: 'Oxygen';
+            border-radius: 10px;
+        }
+
+        .bd1 img {
+            border-radius: 10px;
+        }
+
+        .bd2 img {
+            border-radius: 10px;
+        }
+
+        .bd3 img {
+            border-radius: 10px;
+        }
+
+        h1,
+        p {
+            padding-left: 15px;
+        }
+
+        h1 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 12px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bigbox">
+        <div class="bd1">
+            <img src="images/buiding1.jpg" alt="house" width="100%">
+            <h1>Residential projects</h1>
+            <p>We build sustainable and modern homes for comfortable living.</p>
+        </div>
+
+        <div class="bd2">
+            <img src="images/buiding2.jpg" alt="house" width="100%">
+            <h1> Commercial spaces</h1>
+            <p>We create efficient, inspiring workspaces for businesses of all sizes.</p>
+        </div>
+
+
+        <div class="bd3">
+            <img src="images/buiding3.jpg" alt="house" width="100%">
+            <h1>Infrastructure works</h1>
+            <p>We develop strong, reliable infrastructure for growing communities.</p>
+        </div>
+    </div>
+</body>
+
+</html>
