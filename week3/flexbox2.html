@@ -27,23 +27,42 @@
         }
 
         .box2 {
-            margin-top: 30px;
-            margin-left: 70px;
-            margin-right: 70px;
-            justify-content: center;
-            gap: 10px;
-        }
-
-
-        .box2 div {
             display: flex;
-            background-color: white;
-            padding: 10px;
             justify-content: space-between;
             align-items: center;
+            padding: 10px 15px;
+            background-color: white;
+            margin-top: 20px;
+            margin-left: 70px;
+            margin-right: 70px;
+
         }
 
-        /* logo */
+        .box2 img {
+            height: 35px;
+            width: auto;
+        }
+
+        .menu2 img {
+            height: 20px;
+            width: auto;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .contact {
+            font-size: 16px;
+            margin-right: 40px;
+        }
+
+        .phone2 img {
+            height: 20px;
+            width: auto;
+        }
     </style>
 </head>
 
@@ -56,13 +75,20 @@
     </div>
 
     <div class="box2">
+        <div class="logo2">
+            <img src="images/logo.png" alt="logo">
+        </div>
         <div class="right">
-            <div class="logo"><img src="images/logo.png" alt="logo"></div>
-            <div class="phone"><img src="images/phone.png" alt="phone"></div>
-            <div class="text">
-                <h6>555-123-4587</h6>
+            <div class="phone2">
+                <img src="images/phone.png" alt="phone">
             </div>
-            <div class="menu"><img src="images/menu.png" alt="menu"></div>
+            <div class="contact">
+                <h5>555-123-4567</h5>
+            </div>
+
+            <div class="menu2">
+                <img src="images/menu.png" alt="menu">
+            </div>
         </div>
     </div>
 
