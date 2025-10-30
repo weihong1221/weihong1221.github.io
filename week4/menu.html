@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <style>
         body {
             background-color: rgb(213, 174, 121);
+            font-family: 'Archivo', sans-serif;
         }
 
 
@@ -42,21 +47,32 @@
             width: 30px;
         }
 
-
+        .serv {
+            color: #f6622e;
+        }
 
         .button {
             text-decoration: none;
-            padding: 10px 20px;
-            background-color: black;
+            padding: 12px 20px;
+            background-color: #f6622e;
             color: white;
             border-radius: 8px;
         }
 
-        @media screen and (max-width: 1200px) {}
+        @media screen and (min-width: 1200px) {
 
-        .menulogo {
-            display: none;
+            .menulogo {
+                display: none;
 
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+
+            .header2,
+            .button {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -71,7 +87,7 @@
             <div>
                 <h4>Home</h4>
             </div>
-            <div>
+            <div class="serv">
                 <h4>Services</h4>
             </div>
             <div>
