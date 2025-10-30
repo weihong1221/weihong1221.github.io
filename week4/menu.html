@@ -16,6 +16,7 @@
             display: flex;
             background-color: white;
             align-items: center;
+            padding: 10px 20px;
         }
 
         .logo {
@@ -24,18 +25,22 @@
 
         .header2 {
             display: flex;
+            gap: 30px
         }
 
         .header3 {
             display: flex;
             align-items: center;
-
+            gap: 30px
         }
 
         .phonelogo {
             width: 30px;
         }
 
+        .menulogo {
+            width: 30px;
+        }
 
 
 
@@ -45,6 +50,13 @@
             background-color: black;
             color: white;
             border-radius: 8px;
+        }
+
+        @media screen and (max-width: 1200px) {}
+
+        .menulogo {
+            display: none;
+
         }
     </style>
 </head>
@@ -79,6 +91,7 @@
                 <h5>555-123-4567</h5>
             </div>
             <div> <a class="button" href="#">Contact</a></div>
+            <div class="menulogo"><img src="images/menu.png" width="100%"></div>
 
 
 
