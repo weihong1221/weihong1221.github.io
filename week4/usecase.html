@@ -16,7 +16,7 @@
         .header {
             display: flex;
             justify-content: space-between;
-            padding: 10px 30px;
+            padding: 10px 50px;
         }
 
         .left {
@@ -26,6 +26,26 @@
         .right {
             display: flex;
             gap: 50px;
+        }
+
+        .use {
+            background-color: #b9ff66;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 18px;
+        }
+
+        .button {
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border: 2px solid black;
+            padding: 15px 25px;
+            border-radius: 8px;
+        }
+
+        .button1 {
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -42,10 +62,14 @@
         <div class="right">
             <h5>About us</h5>
             <h5>Services</h5>
-            <h5>Use case</h5>
+
+            <h5 class="use">Use case</h5>
+
             <h5>Pricing</h5>
             <h5>Blog</h5>
-            <h5>Request a quote</h5>
+            <div class="button1">
+                <a class="button" href="#">Request a quote</a>
+            </div>
         </div>
 
 
