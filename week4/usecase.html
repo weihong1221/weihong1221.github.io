@@ -23,6 +23,12 @@
             display: flex;
         }
 
+        .right2 {
+            display: flex;
+            gap: 50px;
+        }
+
+
         .right {
             display: flex;
             gap: 50px;
@@ -36,7 +42,7 @@
             background-color: #b9ff66;
             padding: 5px;
             border-radius: 5px;
-            margin-top: 18px;
+            margin-top: 15px;
         }
 
         .button {
@@ -50,6 +56,10 @@
 
         .button1 {
             margin-top: 15px;
+        }
+
+        .menulogo {
+            margin-top: 18px;
         }
 
         /* middle */
@@ -88,33 +98,215 @@
         /* bottom */
         .bottom {
             background-color: black;
-            color: white;
             border-radius: 50px;
-            padding: 20px 50px;
+            padding: 70px 50px;
             margin-left: 50px;
             margin-right: 50px;
             margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
         }
 
         .content2 {
-            width: 50%;
+            width: 60%;
+            color: white;
 
         }
 
         .title1 {
-            font-size: 28px;
+            font-size: 20px;
             background-color: #b9ff66;
             color: black;
-            border-radius: 20px;
+            border-radius: 10px;
         }
 
         .vicetitle1 {
-            font-size: 38px;
-            width: 80%;
+            font-size: 36px;
         }
 
         .text1 {
-            font-size: 22px;
+            font-size: 17px;
+        }
+
+        .readicon {
+            display: flex;
+            color: #b9ff66;
+            align-items: center;
+            margin-top: 70px;
+        }
+
+        .readtext {
+            margin-left: 15px;
+        }
+
+        /* bigbox */
+        .bigbox {
+            margin-left: 300px;
+        }
+
+        .bigbox1,
+        .bigbox2 {
+            display: flex;
+            gap: 50px;
+
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4 {
+            background-color: white;
+            color: black;
+            width: 40%;
+            border-radius: 20px;
+        }
+
+        .box3,
+        .box4 {
+            margin-top: 50px;
+        }
+
+        .boxtitle1 h3 {
+            font-size: 42px;
+            text-align: center;
+            margin: 30px 0px 10px 0px;
+        }
+
+        .boxtext1 p {
+            font-size: 24px;
+            text-align: center;
+            margin: 10px 20px 70px 20px;
+        }
+
+        .boxtitle2 h3 {
+            font-size: 42px;
+            text-align: center;
+            margin: 30px 0px 10px 0px;
+        }
+
+        .boxtext2 p {
+            font-size: 24px;
+            text-align: center;
+            margin: 10px 20px 70px 20px;
+
+        }
+
+        .boxtitle3 h3 {
+            font-size: 42px;
+            text-align: center;
+            margin: 30px 0px 10px 0px;
+        }
+
+        .boxtext3 p {
+            font-size: 24px;
+            text-align: center;
+            margin: 10px 20px 50px 20px;
+        }
+
+        .boxtitle4 h3 {
+            font-size: 42px;
+            text-align: center;
+            margin: 30px 0px 10px 0px;
+        }
+
+        .boxtext4 p {
+            font-size: 24px;
+            text-align: center;
+            margin: 10px 10px 50px 10px;
+        }
+
+
+        /* media screen */
+        @media screen and (min-width: 800px) {
+
+            .menulogo,
+            .illuswhite,
+            .readicon1,
+            .title2 {
+                display: none;
+            }
+
+
+
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .right2,
+            .illus,
+            .title1 {
+                display: none;
+            }
+
+            .readicon {
+                display: none;
+            }
+
+            .middle {
+                background-color: white;
+                margin: 0%;
+
+            }
+
+            .illus {
+                width: 100%;
+            }
+
+            .bottom,
+            .bigbox1,
+            .bigbox2 {
+                flex-direction: column;
+
+            }
+
+            .title2 {
+                font-size: 22px;
+                display: flex;
+                align-items: center;
+                color: #b9ff66;
+
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+
+
+
+
+
+            /* bottom box */
+            .text2 {
+                font-size: 33px;
+            }
+
+            .content2 {
+                width: 100%;
+            }
+
+            .title1,
+            .vicetitle1,
+            .text1 {
+                margin-left: 45px;
+            }
+
+
+
+            .bigbox {
+                margin: 0px;
+            }
+
+            .box1,
+            .box2,
+            .box3,
+            .box4 {
+                width: 100%;
+
+            }
+
+            .readtext1 {
+                color: #b9ff66;
+                margin-left: 40px;
+            }
         }
     </style>
 </head>
@@ -124,21 +316,25 @@
         <div class="left">
             <div class="star">
                 <img src="images/starlogo.png" alt="star">
+
             </div>
 
         </div>
 
         <div class="right">
-            <h5>About us</h5>
-            <h5>Services</h5>
+            <div class="right2">
+                <h5>About us</h5>
+                <h5>Services</h5>
 
-            <h5 class="use">Use case</h5>
+                <h5 class="use">Use case</h5>
 
-            <h5>Pricing</h5>
-            <h5>Blog</h5>
-            <div class="button1">
-                <a class="button" href="#">Request a quote</a>
+                <h5>Pricing</h5>
+                <h5>Blog</h5>
+                <div class="button1">
+                    <a class="button" href="#">Request a quote</a>
+                </div>
             </div>
+            <div class="menulogo"><img src="images/menu.png" alt="menu" width="30px"></div>
         </div>
     </div>
     <!-- <header> -->
@@ -150,6 +346,8 @@
             <div class="title">
                 <h1>Proven Success Stories</h1>
             </div>
+            <div class="illuswhite"><img src="images/illuswhite.jpg" alt="illus" width="100%"></div>
+
             <div class="text">
                 <p>See how our innovative digital marketing strategies have transformed businesses. Whether through
                     SEO, PPC, social media or web design,these use cases highlight the tangible impact of our
@@ -165,6 +363,10 @@
             <div class="title1">
                 <h1>Featured Success Story</h1>
             </div>
+            <div class="title2">
+                <img src="images/stargreen.png" alt="star" width="50px">
+                <h1>Featured</h1>
+            </div>
             <div class="vicetitle1">
                 <p>Scalling Succes for a Laading E-Commerce Brand</p>
             </div>
@@ -174,30 +376,66 @@
                     traffic, and boost sales.</p>
             </div>
             <div class="readicon">
-                <img src="images/readicon.png" alt="read">
-
+                <img src="images/readicon.png" alt="read" width="50px">
+                <p class="readtext">Read</p>
             </div>
         </div>
 
-
+        <!-- bigbox -->
 
         <div class="bigbox">
-            <div class="box1">
+            <div class="bigbox1">
+                <div class="box1">
+                    <div class="boxtitle1">
+                        <h3>200%</h3>
+                    </div>
+                    <div class="boxtext1">
+                        <p>increase in organic traffic</p>
+                    </div>
+                </div>
 
 
-
-
-
+                <div class="box2">
+                    <div class="boxtitle2">
+                        <h3>150%</h3>
+                    </div>
+                    <div class="boxtext2">
+                        <p>rise in online sales</p>
+                    </div>
+                </div>
             </div>
 
+            <div class="bigbox2">
+                <div class="box3">
+                    <div class="boxtitle3">
+                        <h3>75%</h3>
+                    </div>
+                    <div class="boxtext3">
+                        <p>reduction in cost-per-click (CPC)</p>
+                    </div>
+                </div>
 
 
-
-
-
+                <div class="box4">
+                    <div class="boxtitle4">
+                        <h3>300%</h3>
+                    </div>
+                    <div class="boxtext4">
+                        <p>improvement in conversion rate</p>
+                    </div>
+                </div>
+                <div class="readicon1">
+                    <img src="images/readicon.png" alt="read" width="50px">
+                    <p class="readtext1">Read</p>
+                </div>
+            </div>
         </div>
-
     </div>
+
+
+
+
+
 
 
 </body>
