@@ -12,7 +12,7 @@
         .header {
             display: flex;
             justify-content: space-between;
-            background-color: black;
+            background-color: rgba(255, 228, 196, 0.736);
             align-items: center;
             padding: 10px 0px;
         }
@@ -156,6 +156,31 @@
             flex-direction: column;
             text-align: center;
         }
+
+        .bottomheader {
+            background-color: rgba(255, 228, 196, 0.736);
+            margin-top: 50px;
+            padding: 10px 0px;
+
+        }
+
+        .bottomsocial {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px
+        }
+
+        .bottomsocial img {
+            border-radius: 10px;
+        }
+
+        .line {
+            background-color: black;
+            border: none;
+            height: 2px;
+            margin: 20px;
+        }
     </style>
 </head>
 
@@ -193,6 +218,7 @@
                 <img src="calendar.png" width="24px">
                 <h3>Week 1</h3>
             </div>
+            <hr class="line">
             <div class="exerciselink1"><a href="https://weihong1221.github.io/week1/exe1.html" target="_blank">Exercise
                     1</a>
                 <a href="https://weihong1221.github.io/week1/exe2.html" target="_blank">Exercise 2</a>
@@ -204,6 +230,7 @@
                 <img src="calendar.png" width="24px">
                 <h3>Week 2</h3>
             </div>
+            <hr class="line">
             <div class="exerciselink2"><a href="https://weihong1221.github.io/week2/button.html"
                     target="_blank">Exercise
                     1</a>
@@ -216,6 +243,7 @@
                 <img src="calendar.png" width="24px">
                 <h3>Week 3</h3>
             </div>
+            <hr class="line">
             <div class="exerciselink3">
                 <a href="https://weihong1221.github.io/week3/flexbox1.html" target="_blank">Exercise 1</a>
                 <a href="https://weihong1221.github.io/week3/flexbox2.html" target="_blank">Exercise 2</a>
@@ -227,6 +255,7 @@
                 <img src="calendar.png" width="24px">
                 <h3>Week 4</h3>
             </div>
+            <hr class="line">
             <div class="exerciselink4">
                 <a href="https://weihong1221.github.io/week4/menu.html" target="_blank">Exercise
                     1</a>
@@ -236,12 +265,12 @@
     </div>
     <div class="bottomheader">
         <div class="bottomsocial">
-            <a href="https://www.instagram.com/weihong1221/" target="_blank"><img src="ins.jpg" alt="ins"
-                    width="50px"></a>
-            <a href="https://www.facebook.com/weiwei.pan.94" target="_blank"><img src="fb.jpg" alt="fb"
-                    width="50px"></a>
-            <a href="https://www.xiaohongshu.com/user/profile/5dbf88e600000000010045db" target="_blank"><img
-                    src="rednote.jpg" alt="rednote" width="50px"></a>
+            <div class="ins"><a href="https://www.instagram.com/weihong1221/" target="_blank"><img src="ins.jpg"
+                        alt="ins" width="50px"></a></div>
+            <div class="fb"><a href="https://www.facebook.com/weiwei.pan.94" target="_blank"><img src="fb.jpg" alt="fb"
+                        width="50px"></a></div>
+            <div class="xhs"><a href="https://www.xiaohongshu.com/user/profile/5dbf88e600000000010045db"
+                    target="_blank"><img src="rednote.jpg" alt="rednote" width="50px"></a></div>
         </div>
 
 
