@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <style>
         .header {
             display: flex;
             justify-content: space-between;
             background-color: black;
             align-items: center;
+            padding: 10px 0px;
         }
 
         .selflogo {
@@ -20,6 +24,12 @@
         .social {
             margin-right: 40px;
             gap: 20px;
+            display: flex;
+
+        }
+
+        .social img {
+            border-radius: 20px;
         }
 
         .profile {
@@ -34,6 +44,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+            font-family: "Space Grotesk";
         }
 
         .selfintro {
@@ -150,7 +161,7 @@
 
 <body>
     <div class="header">
-        <div class="selflogo"><img src="logo.png" alt="logo" width="50px"></div>
+        <div class="selflogo"><img src="logo.png" alt="logo" width="40px"></div>
         <div class="social">
             <img src="ins.jpg" alt="ins" width="50px">
             <img src="fb.jpg" alt="fb" width="50px">
