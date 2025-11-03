@@ -13,6 +13,15 @@
             align-items: center;
         }
 
+        .selflogo {
+            margin-left: 30px;
+        }
+
+        .social {
+            margin-right: 40px;
+            gap: 20px;
+        }
+
         .profile {
             align-items: center;
             text-align: center;
@@ -37,20 +46,66 @@
             margin-bottom: auto;
         }
 
+        .boxtitle1,
+        .boxtitle2,
+        .boxtitle3,
+        .boxtitle4 {
+            display: flex;
+            align-items: center;
+            color: black;
+            justify-content: center;
+            gap: 10px;
+
+        }
+
         .exercisebox {
             display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-            text-decoration: none;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        .box1 {
+            background-color: rgba(255, 255, 255, 0.515);
+            width: calc(100%/4);
+            margin: auto;
+            padding: 30px 0px;
+            border-radius: 20px;
+
+        }
+
+        .box2 {
+            background-color: rgba(255, 255, 255, 0.515);
+            width: calc(100%/4);
+            margin: auto;
+            padding: 20px 0px;
+            border-radius: 20px;
+
 
 
         }
 
+        .box3 {
+            background-color: rgba(255, 255, 255, 0.515);
+            width: calc(100%/4);
+            margin: auto;
+            padding: 20px 0px;
+            border-radius: 20px;
 
 
-        .box1 {
-            background-color: white;
-            color: black;
+
+
+
+        }
+
+        .box4 {
+            background-color: rgba(255, 255, 255, 0.515);
+            width: 90%;
+            margin: auto;
+            padding: 20px 0px;
+            border-radius: 20px;
+
+
+
 
 
         }
@@ -58,34 +113,44 @@
         .box1 a {
             text-decoration: none;
             color: black;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
 
-        }
 
-        .box2 {
-            background-color: white;
-            color: black;
         }
 
         .box2 a {
             text-decoration: none;
             color: black;
-        }
+            display: flex;
+            flex-direction: column;
+            text-align: center;
 
-        .box3 {
-            background-color: white;
-            color: black;
         }
 
         .box3 a {
             text-decoration: none;
             color: black;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        .box4 a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
     <div class="header">
-        <img src="logo.png" alt="logo" width="50px">
+        <div class="selflogo"><img src="logo.png" alt="logo" width="50px"></div>
         <div class="social">
             <img src="ins.jpg" alt="ins" width="50px">
             <img src="fb.jpg" alt="fb" width="50px">
@@ -110,25 +175,61 @@
     </div>
     <div class="exercisebox">
         <div class="box1">
-            <h3>Week 1</h3>
-            <a href="https://weihong1221.github.io/week1/exe1.html" target="_blank">Exercise 1</a>
-            <a href="https://weihong1221.github.io/week1/exe2.html" target="_blank">Exercise 2</a>
+            <div class="boxtitle1">
+                <img src="calendar.png" width="24px">
+                <h3>Week 1</h3>
+            </div>
+            <div class="exerciselink1"><a href="https://weihong1221.github.io/week1/exe1.html" target="_blank">Exercise
+                    1</a>
+                <a href="https://weihong1221.github.io/week1/exe2.html" target="_blank">Exercise 2</a>
+            </div>
         </div>
 
         <div class="box2">
-            <h3>Week 2</h3>
-            <a href="https://weihong1221.github.io/week2/button.html" target="_blank">Exercise 1</a>
-            <a href="https://weihong1221.github.io/week2/self-intro.html" target="_blank">Exercise 2</a>
-            <a href="https://weihong1221.github.io/week2/favoutite artist.html" target="_blank">Exercise 3</a>
+            <div class="boxtitle2">
+                <img src="calendar.png" width="24px">
+                <h3>Week 2</h3>
+            </div>
+            <div class="exerciselink2"><a href="https://weihong1221.github.io/week2/button.html"
+                    target="_blank">Exercise
+                    1</a>
+                <a href="https://weihong1221.github.io/week2/self-intro.html" target="_blank">Exercise 2</a>
+                <a href="https://weihong1221.github.io/week2/favoutite artist.html" target="_blank">Exercise 3</a>
+            </div>
         </div>
         <div class="box3">
-            <h3>Week 3</h3>
-            <a href="https://weihong1221.github.io/week3/flexbox1.html" target="_blank">Exercise 1</a>
-            <a href="https://weihong1221.github.io/week3/flexbox2.html" target="_blank">Exercise 2</a>
-            <a href="https://weihong1221.github.io/week3/flexbox3.html" target="_blank">Exercise 3</a>
+            <div class="boxtitle3">
+                <img src="calendar.png" width="24px">
+                <h3>Week 3</h3>
+            </div>
+            <div class="exerciselink3">
+                <a href="https://weihong1221.github.io/week3/flexbox1.html" target="_blank">Exercise 1</a>
+                <a href="https://weihong1221.github.io/week3/flexbox2.html" target="_blank">Exercise 2</a>
+                <a href="https://weihong1221.github.io/week3/flexbox3.html" target="_blank">Exercise 3</a>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="boxtitle4">
+                <img src="calendar.png" width="24px">
+                <h3>Week 4</h3>
+            </div>
+            <div class="exerciselink4">
+                <a href="https://weihong1221.github.io/week4/menu.html" target="_blank">Exercise
+                    1</a>
+                <a href="https://weihong1221.github.io/week4/usecase.html" target="_blank">Exercise 2</a>
+            </div>
         </div>
     </div>
+    <div class="bottomheader">
 
+
+
+
+
+
+
+
+    </div>
 
 </body>
 
