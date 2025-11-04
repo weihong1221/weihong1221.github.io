@@ -1,0 +1,304 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.left {
+    display: flex;
+}
+
+.right2 {
+    display: flex;
+    gap: 50px;
+}
+
+
+.right {
+    display: flex;
+    gap: 50px;
+}
+
+.right h5 {
+    font-weight: normal;
+}
+
+.use {
+    background-color: #b9ff66;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+.button1 {
+    margin-top: 15px;
+}
+
+.menulogo {
+    margin-top: 18px;
+}
+
+/* middle */
+.middle {
+    display: flex;
+    background-color: #f3f3f3;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    padding: 0px 50px;
+    gap: 40px;
+}
+
+.illus {
+    margin-left: 40px;
+    margin-top: 2px;
+    width: 50%;
+}
+
+.content {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 38px;
+}
+
+.text {
+    font-size: 26px;
+    letter-spacing: 1px;
+
+}
+
+/* bottom */
+.bottom {
+    background-color: black;
+    border-radius: 50px;
+    padding: 70px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2 {
+    width: 60%;
+    color: white;
+
+}
+
+.title1 {
+    font-size: 20px;
+    background-color: #b9ff66;
+    color: black;
+    border-radius: 10px;
+}
+
+.vicetitle1 {
+    font-size: 36px;
+}
+
+.text1 {
+    font-size: 17px;
+}
+
+.readicon {
+    display: flex;
+    color: #b9ff66;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.readtext {
+    margin-left: 15px;
+}
+
+/* bigbox */
+.bigbox {
+    margin-left: 300px;
+}
+
+.bigbox1,
+.bigbox2 {
+    display: flex;
+    gap: 50px;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    background-color: white;
+    color: black;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.box3,
+.box4 {
+    margin-top: 50px;
+}
+
+.boxtitle1 h3 {
+    font-size: 42px;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.boxtext1 p {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 20px 70px 20px;
+}
+
+.boxtitle2 h3 {
+    font-size: 42px;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.boxtext2 p {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 20px 70px 20px;
+
+}
+
+.boxtitle3 h3 {
+    font-size: 42px;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.boxtext3 p {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 20px 50px 20px;
+}
+
+.boxtitle4 h3 {
+    font-size: 42px;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.boxtext4 p {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 10px 50px 10px;
+}
+
+
+/* media screen */
+@media screen and (min-width: 800px) {
+
+    .menulogo,
+    .illuswhite,
+    .readicon1,
+    .title2 {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .right2,
+    .illus,
+    .title1 {
+        display: none;
+    }
+
+    .readicon {
+        display: none;
+    }
+
+    .middle {
+        background-color: white;
+        margin: 0%;
+
+    }
+
+    .illus {
+        width: 100%;
+    }
+
+    .bottom,
+    .bigbox1,
+    .bigbox2 {
+        flex-direction: column;
+
+    }
+
+    .title2 {
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        color: #b9ff66;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+
+
+
+
+    /* bottom box */
+    .text2 {
+        font-size: 33px;
+    }
+
+    .content2 {
+        width: 100%;
+    }
+
+    .title1,
+    .vicetitle1,
+    .text1 {
+        margin-left: 45px;
+    }
+
+
+
+    .bigbox {
+        margin: 0px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 100%;
+
+    }
+
+    .readicon1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .readtext1 {
+        color: #b9ff66;
+        margin-left: 20px;
+    }
+}
