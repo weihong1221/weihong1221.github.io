@@ -1,113 +1,121 @@
-   body {
-       font-family: "Space Grotesk";
-   }
+  /* header */
+  .middle {
+      display: flex;
+      gap: 50px
+  }
 
-   .header {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-   }
+  .content {
+      width: 50%;
+      margin-left: 50px;
 
-   h1 {
-       padding: 5px 10px;
-   }
+  }
 
-   .left,
-   .right {
-       display: flex;
-       align-items: center;
-   }
+  .illus {
+      width: 50%;
+      margin-top: 30px;
 
-   .left {
-       margin-left: 60px;
-   }
 
-   .right {
-       gap: 90px;
-       margin-right: 60px;
-   }
+  }
 
-   .about4 {
-       background-color: white;
-       color: black;
-       text-decoration: none;
-   }
+  h1 {
+      font-size: 74px;
+  }
 
-   .serv4 {
-       background-color: white;
-       color: black;
-       text-decoration: none;
-   }
+  p {
+      font-size: 28px;
+  }
 
-   .use4 {
-       background-color: white;
-       color: black;
-       text-decoration: none;
-   }
+  .book {
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+  }
 
-   .price4 {
-       background-color: white;
-       color: black;
-       text-decoration: none;
-   }
+  .bookbutton {
+      margin-top: 50px;
+  }
 
-   .blog4 {
-       background-color: white;
-       color: black;
-       text-decoration: none;
-   }
+  /* middle */
+  .brandlogo {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px 0px;
 
-   .button4 {
+  }
 
-       background-color: white;
-       color: black;
-       text-decoration: none;
-       border: 2px solid black;
-       padding: 15px 25px;
-       border-radius: 8px;
-   }
+  .logobox1 {
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+  }
 
-   /* header */
-   .main1 {
-       display: flex;
-       margin: 50px;
-   }
+  .logobox2 {
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
 
-   .header2 {
-       display: flex;
-       flex-direction: column;
-   }
 
-   .content {
-       width: 70%;
-       font-size: 30px;
-   }
+  }
 
-   .content1 {
-       width: 70%;
-       font-size: 22.5px;
-   }
 
-   .button5 {
-       background-color: black;
-       color: white;
-       text-decoration: none;
-       border: 2px solid black;
-       padding: 15px 25px;
-       border-radius: 8px;
-   }
-
-   .button2 {
-       margin-top: 30px;
-   }
+  .illustration2 {
+      display: none;
+  }
 
 
 
-   /* main */
-   .brandlogo {
-       display: flex;
-       justify-content: space-between;
-       margin-top: 150px;
-       margin-left: 60px;
-       margin-right: 60px;
-   }
+
+  @media screen and (max-width: 900px) {
+
+      .rightheader,
+      .illus {
+          display: none;
+
+      }
+
+      .illustration2 {
+          display: block;
+      }
+
+      .content {
+          width: 100%;
+      }
+
+      .illustration2 {
+          width: 100%;
+      }
+
+      .brandlogo {
+          flex-wrap: wrap;
+          margin: 0px 20px;
+          padding: 20px;
+          gap: 20px;
+      }
+
+      .brandlogo img {
+          width: 100%;
+      }
+
+      .logobox1,
+      .logobox2 {
+          width: 100%;
+      }
+
+      p {
+          font-size: 22px;
+      }
+
+      .book {
+          background-color: black;
+          color: white;
+          text-decoration: none;
+          border-radius: 8px;
+          width: 80%;
+          display: flex;
+          justify-content: center;
+      }
+
+
+  }
