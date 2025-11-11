@@ -1,0 +1,84 @@
+body {
+    margin: 30px;
+}
+
+.content {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.photo {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+
+.food1 img {
+    border-radius: 20px;
+}
+
+.food2 img {
+    border-radius: 20px;
+}
+
+.food3 img {
+    border-radius: 20px;
+}
+
+.photo>div {
+    width: calc(100%/3);
+}
+
+.boxcontent1 {
+    background-color: grey;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px
+}
+
+.boxcontent2 {
+    background-color: grey;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px
+}
+
+.boxcontent3 {
+    background-color: grey;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px
+}
+
+@media screen and (max-width:900px) {
+    .photo {
+        flex-direction: column;
+    }
+
+    .photo>div {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+
+
+
+
+
+}
