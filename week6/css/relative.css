@@ -8,27 +8,50 @@ body {
     margin: auto;
 }
 
-.photo {
+.row1 {
     display: flex;
     margin: auto;
     gap: 30px;
 }
 
-.food1 img {
+.row2 {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+
+.twice1 img {
     border-radius: 20px;
 }
 
-.food2 img {
+.twice2 img {
     border-radius: 20px;
 }
 
-.food3 img {
+.twice3 img {
     border-radius: 20px;
 }
 
-.photo>div {
+.twice4 img {
+    border-radius: 20px;
+}
+
+.twice5 img {
+    border-radius: 20px;
+}
+
+.twice6 img {
+    border-radius: 20px;
+}
+
+.row1>div {
     width: calc(100%/3);
 }
+
+.row2>div {
+    width: calc(100%/3);
+}
+
 
 .boxcontent1 {
     background-color: grey;
@@ -63,12 +86,51 @@ body {
     top: -50px
 }
 
+.boxcontent4 {
+    background-color: grey;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px
+}
+
+.boxcontent5 {
+    background-color: grey;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px
+}
+
+.boxcontent6 {
+    background-color: grey;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px
+}
+
 @media screen and (max-width:900px) {
-    .photo {
+
+    .row1,
+    .row2 {
         flex-direction: column;
     }
 
-    .photo>div {
+    .row1>div {
+        width: 100%;
+    }
+
+    .row2>div {
         width: 100%;
     }
 
