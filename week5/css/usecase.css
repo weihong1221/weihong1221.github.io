@@ -2,6 +2,11 @@ body {
     font-family: "Space Grotesk", sans-serif;
 }
 
+.use {
+    background-color: #b9fe67;
+    border-radius: 10px;
+}
+
 .middle {
     justify-content: space-between;
     display: flex;
@@ -201,10 +206,7 @@ h3 {
 
 }
 
-.use {
-    background-color: #b9fe67;
-    border-radius: 40px;
-}
+
 
 .bottomcontent h4 {
     background-color: #b9fe67;

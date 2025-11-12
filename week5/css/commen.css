@@ -26,6 +26,7 @@ body {
     gap: 30px;
     margin-right: 20px;
     margin-top: 15px;
+    align-items: center;
 }
 
 .about,
@@ -40,7 +41,7 @@ body {
 .use {
     color: black;
     text-decoration: none;
-    padding: 15px 25px;
+    padding: 5px 20px;
 }
 
 .requestbutton {
