@@ -1,20 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 body {
     background-color: aliceblue;
+    font-family: "Space Grotesk";
 }
 
 .switzerlandphoto img {
     border-radius: 20px;
 }
 
+.bigbox {
+    display: flex;
+    gap: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
 .box1 {
+    background-color: rgba(255, 255, 255, 0.456);
+    padding: 20px;
+    border-radius: 20px;
+    height: 50%;
+    position: relative;
+    box-shadow: 5px 5px 30px black;
+
+
+}
+
+.box2 {
     background-color: white;
     padding: 20px;
     border-radius: 20px;
 }
 
+.switzerlandcontent p {
+    color: grey;
+}
+
 .switzerlandicon {
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     display: flex;
 }
 
@@ -34,4 +61,44 @@ body {
     background-color: grey;
     padding: 10px;
     border-radius: 30px;
+}
+
+.sky {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.skyline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.heart {
+    margin-top: 10px;
+}
+
+.skyline p {
+    color: grey;
+}
+
+.smallbox {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 70%;
+    border-radius: 20px;
+    position: absolute;
+    right: -120px;
+    bottom: 80px;
+    padding: 5px 10px;
+}
+
+.smallboxcontent {
+    padding: 10px;
+}
+
+.roma {
+    width: 20%;
+    margin-top: 30px;
 }
