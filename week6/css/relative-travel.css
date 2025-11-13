@@ -1,0 +1,14 @@
+body {
+    background-color: aliceblue;
+}
+
+.switzerland img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.box1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
