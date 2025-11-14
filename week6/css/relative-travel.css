@@ -30,11 +30,6 @@ body {
 
 }
 
-.box2 {
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-}
 
 .switzerlandcontent p {
     color: grey;
@@ -49,7 +44,7 @@ body {
 .leaf {
     background-color: grey;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .map {
@@ -100,6 +95,95 @@ body {
 }
 
 .roma {
+    width: 40%;
+    margin-top: 30px;
+}
+
+/* box 1 box 1 */
+
+.icelandphoto2 img {
+    border-radius: 20px;
+}
+
+
+
+.box2 {
+    background-color: rgba(255, 255, 255, 0.456);
+    padding: 20px;
+    border-radius: 20px;
+    height: 50%;
+    position: relative;
+    box-shadow: 5px 5px 30px black;
+
+
+}
+
+
+
+.icelandcontent2 p {
+    color: grey;
+}
+
+.icelandicon2 {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.leaf {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.map {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.send {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sky2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.skyline2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.heart2 {
+    margin-top: 10px;
+}
+
+.skyline2 p {
+    color: grey;
+}
+
+.smallbox2 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 70%;
+    border-radius: 20px;
+    position: absolute;
+    right: -120px;
+    bottom: 80px;
+    padding: 5px 10px;
+}
+
+.smallboxcontent2 {
+    padding: 10px;
+}
+
+.roma2 {
     width: 40%;
     margin-top: 30px;
 }
