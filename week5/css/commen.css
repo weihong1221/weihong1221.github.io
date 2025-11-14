@@ -44,6 +44,26 @@ body {
     padding: 5px 20px;
 }
 
+.submenuabout {
+    display: none;
+    position: absolute;
+    width: 160px;
+    z-index: 1;
+}
+
+.submenuabout a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+
+.aboutmenu:hover .submenuabout {
+    display: block;
+}
+
 .requestbutton {
     background-color: white;
     color: black;
