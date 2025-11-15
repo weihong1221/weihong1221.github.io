@@ -183,7 +183,26 @@ body {
     padding: 10px;
 }
 
+.loading {
+    width: 90%;
+}
+
 .roma2 {
     width: 40%;
     margin-top: 30px;
+}
+
+@media screen and (max-width:900px) {
+    .bigbox {
+        flex-direction: column;
+    }
+
+    .box2 {
+        margin-top: 50px;
+    }
+
+
+
+
+
 }
