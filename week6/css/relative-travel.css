@@ -192,17 +192,154 @@ body {
     margin-top: 30px;
 }
 
+@media screen and (max-width:1130px) {
+
+    .smallbox2 {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 70%;
+        border-radius: 20px;
+        position: absolute;
+        right: -110px;
+        bottom: 80px;
+        padding: 5px 10px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1035px) {
+
+    .smallbox2 {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 70%;
+        border-radius: 20px;
+        position: absolute;
+        right: -100px;
+        bottom: 80px;
+        padding: 5px 10px;
+    }
+
+
+
+}
+
+@media screen and (max-width:935px) {
+
+    .smallbox2 {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 70%;
+        border-radius: 20px;
+        position: absolute;
+        right: -95px;
+        bottom: 80px;
+        padding: 5px 10px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:900px) {
     .bigbox {
         flex-direction: column;
     }
 
     .box2 {
-        margin-top: 50px;
+        width: 80%;
+        margin-top: 10%;
     }
 
+    .box1 {
+        width: 80%;
 
 
+    }
 
+}
+
+@media screen and (max-width:620px) {
+    .bigbox {
+        flex-direction: column;
+    }
+
+    .box2 {
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    .box1 {
+        width: 80%;
+    }
+
+    .smallbox {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 70%;
+        border-radius: 20px;
+        position: absolute;
+        right: -100px;
+        bottom: 80px;
+        padding: 5px 10px;
+    }
+
+    .smallbox2 {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 70%;
+        border-radius: 20px;
+        position: absolute;
+        right: -100px;
+        bottom: 80px;
+        padding: 5px 10px;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .bigbox {
+        flex-direction: column;
+    }
+
+    .box2 {
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    .box1 {
+        width: 80%;
+    }
+
+    .smallbox {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 70%;
+        border-radius: 20px;
+        position: absolute;
+        right: -90px;
+        bottom: 80px;
+        padding: 5px 10px;
+    }
+
+    .smallbox2 {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 70%;
+        border-radius: 20px;
+        position: absolute;
+        right: -90px;
+        bottom: 80px;
+        padding: 5px 10px;
+    }
 
 }
