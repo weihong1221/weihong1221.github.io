@@ -53,7 +53,8 @@ body {
 .boxtitle3,
 .boxtitle4,
 .boxtitle5,
-.boxtitle6 {
+.boxtitle6,
+.boxtitle7 {
     display: flex;
     align-items: center;
     color: black;
@@ -70,7 +71,7 @@ body {
 
 .box1 {
     background-color: rgba(255, 255, 255, 0.515);
-    width: calc(100%/4);
+    width: calc(100%/3);
 
     margin: auto;
     padding: 30px 0px;
@@ -80,7 +81,7 @@ body {
 
 .box2 {
     background-color: rgba(255, 255, 255, 0.515);
-    width: calc(100%/4);
+    width: calc(100%/3);
 
     margin: auto;
     padding: 20px 0px;
@@ -92,20 +93,16 @@ body {
 
 .box3 {
     background-color: rgba(255, 255, 255, 0.515);
-    width: calc(100%/4);
+    width: calc(100%/3);
     margin: auto;
     padding: 20px 0px;
     border-radius: 20px;
-
-
-
-
-
 }
+
 
 .box4 {
     background-color: rgba(255, 255, 255, 0.515);
-    width: calc(100%/4);
+    width: calc(100%/3);
     margin: auto;
     padding: 30px 0px;
     border-radius: 20px;
@@ -114,7 +111,7 @@ body {
 
 .box5 {
     background-color: rgba(255, 255, 255, 0.515);
-    width: calc(100%/4);
+    width: calc(100%/3);
     margin: auto;
     padding: 50px 0px;
     border-radius: 20px;
@@ -122,12 +119,20 @@ body {
 
 .box6 {
     background-color: rgba(255, 255, 255, 0.515);
-    width: calc(100%/4);
+    width: calc(100%/3);
     margin: auto;
     padding: 10px 0px;
     border-radius: 20px;
 }
 
+
+.box7 {
+    background-color: rgba(255, 255, 255, 0.515);
+    width: calc(100%/3);
+    margin: auto;
+    padding: 30px 0px;
+    border-radius: 20px;
+}
 
 .box1 a {
     text-decoration: none;
@@ -192,6 +197,16 @@ body {
 
 }
 
+.box7 a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+
+}
+
 
 .bottomheader {
     background-color: rgba(255, 228, 196, 0.736);
@@ -235,7 +250,8 @@ body {
     .box3,
     .box4,
     .box5,
-    .box6 {
+    .box6,
+    .box7 {
         width: 80%;
     }
 
