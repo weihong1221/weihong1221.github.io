@@ -1,0 +1,193 @@
+body {
+    font-family: "Space Grotesk";
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+}
+
+.positivuslogo {
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.menulogo {
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.rightheader {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.about,
+.serv,
+.price,
+.blog {
+    color: black;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.use {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.submenuabout {
+    display: none;
+    position: absolute;
+    width: 160px;
+    z-index: 1;
+
+}
+
+.submenuabout a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+
+.aboutmenu:hover .submenuabout {
+    display: block;
+    background-color: antiquewhite;
+    width: 10%;
+}
+
+.submenuservices {
+    display: none;
+    position: absolute;
+    width: 160px;
+    z-index: 1;
+}
+
+.submenuservices a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.servicesmenu:hover .submenuservices {
+    display: block;
+    background-color: antiquewhite;
+
+}
+
+.requestbutton {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1250px) {
+    .requestbutton {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border: 2px solid black;
+        padding: 15px 15px;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .requestbutton {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border: 2px solid black;
+        padding: 15px 15px;
+        border-radius: 8px;
+    }
+
+    .rightheader {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .requestbutton {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border: 2px solid black;
+        padding: 15px 15px;
+        border-radius: 8px;
+    }
+
+    .about,
+    .serv,
+    .use,
+    .price,
+    .blog {
+        color: black;
+        text-decoration: none;
+        padding: 15px 15px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .requestbutton {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border: 2px solid black;
+        padding: 15px 5px;
+        border-radius: 8px;
+    }
+
+    .about,
+    .serv,
+    .use,
+    .price,
+    .blog {
+        color: black;
+        text-decoration: none;
+        padding: 15px 5px;
+    }
+
+    h1 {
+        font-size: 54px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .rightheader {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .menulogo {
+        display: none;
+    }
+}
