@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 body {
-    max-width: 400px;
+    max-width: 600px;
     margin: auto;
+    background-color: aliceblue;
+    font-family: "Space Grotesk";
 }
 
 .name {
@@ -9,7 +13,7 @@ body {
 }
 
 
-.email {
+.dob {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -17,4 +21,52 @@ body {
 
 .home {
     margin-top: 10px;
+}
+
+.form {
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 30px 50px;
+    margin-top: 50px;
+}
+
+.fname input {
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.lname input {
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.email input {
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.date input {
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.home input {
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.submit input {
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+
+.bio textarea {
+    padding: 10px 15px;
+    border-radius: 20px;
 }
